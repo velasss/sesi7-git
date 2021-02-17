@@ -1,5 +1,5 @@
-var count = 1;
-var clickcount = document.getElementById("clickcount");
+let count = 1;
+let clickcount = document.getElementById("clickcount");
 
 function addClickCount() {
     count++;
@@ -10,6 +10,15 @@ function minClickCount() {
     count--;
     clickcount.innerHTML = count;
 }
-function changeBackgroundColor(colour) {
+
+let changeBackgroundColor = (colour) => {
     btnAddClickCount.style.backgroundColor =colour;
+}
+
+let hideForm = () => {
+    dataDiri.style.display = "none";
+}
+
+let showForm = () => {
+    dataDiri.style.display = "block";
 }
