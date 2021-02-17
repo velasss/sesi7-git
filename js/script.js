@@ -10,6 +10,6 @@ function minClickCount() {
     count--;
     clickcount.innerHTML = count;
 }
-function btnAddClickCount () {
+function changeBackgroundColor(colour) {
     btnAddClickCount.style.backgroundColor =colour;
 }
